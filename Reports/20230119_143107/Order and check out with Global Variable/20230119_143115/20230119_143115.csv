@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Order and check out with Global Variable,Chrome 109.0.0.0,,,2023-01-19 14:31:25,2023-01-19 14:34:03,2m - 37.377s,PASSED
+,,,,,,,
+Test Cases/Custom-keyword samples/Order and check out a single product,Chrome 109.0.0.0,,,2023-01-19 14:31:26,2023-01-19 14:32:40,1m - 13.938s,PASSED
+sample.Login.loginIntoApplicationWithGlobalVariable(),Chrome 109.0.0.0,,,2023-01-19 14:31:27,2023-01-19 14:31:44,17.051s,PASSED
+"waitForElementPresent(findTestObject(""Pages/Shop page/lnkShop""), waitPresentTimeout)",Chrome 109.0.0.0,,,2023-01-19 14:31:44,2023-01-19 14:31:45,0.493s,PASSED
+"click(findTestObject(""Pages/Shop page/lnkShop""))",Chrome 109.0.0.0,,,2023-01-19 14:31:45,2023-01-19 14:31:48,3.022s,PASSED
+sample.Shop.addToCartWithGlobalVariable(),Chrome 109.0.0.0,,,2023-01-19 14:31:48,2023-01-19 14:31:58,10.043s,PASSED
+"sample.Checkout.CheckoutShop(firstName, lastName, companyName, country, address, city, postCode, Phone)",Chrome 109.0.0.0,,,2023-01-19 14:31:58,2023-01-19 14:32:33,35.171s,PASSED
+sample.Login.logoutFromApplication(),Chrome 109.0.0.0,,,2023-01-19 14:32:33,2023-01-19 14:32:39,6.277s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-19 14:32:39,2023-01-19 14:32:40,0.639s,PASSED
+,,,,,,,
+Test Cases/Custom-keyword samples/Order and check out a single product using coupon,Chrome 109.0.0.0,,,2023-01-19 14:32:40,2023-01-19 14:34:03,1m - 22.906s,PASSED
+sample.Login.loginIntoApplicationWithGlobalVariable(),Chrome 109.0.0.0,,,2023-01-19 14:32:40,2023-01-19 14:32:51,11.355s,PASSED
+"waitForElementPresent(findTestObject(""Pages/Shop page/lnkShop""), waitPresentTimeout)",Chrome 109.0.0.0,,,2023-01-19 14:32:51,2023-01-19 14:32:52,0.373s,PASSED
+"click(findTestObject(""Pages/Shop page/lnkShop""))",Chrome 109.0.0.0,,,2023-01-19 14:32:52,2023-01-19 14:32:55,2.947s,PASSED
+sample.Shop.applyCouponAndAddToCartWithGlobalVariable(),Chrome 109.0.0.0,,,2023-01-19 14:32:55,2023-01-19 14:33:12,17.621s,PASSED
+sample.Checkout.CheckoutShopWithGlobalVariable(),Chrome 109.0.0.0,,,2023-01-19 14:33:12,2023-01-19 14:33:56,43.102s,PASSED
+sample.Login.logoutFromApplication(),Chrome 109.0.0.0,,,2023-01-19 14:33:56,2023-01-19 14:34:02,6.747s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-19 14:34:02,2023-01-19 14:34:03,0.615s,PASSED

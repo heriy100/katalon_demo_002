@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Order and check out with Global Variable,Chrome 109.0.0.0,,,2023-01-25 11:55:02,2023-01-25 11:56:20,1m - 17.705s,FAILED
+,,,,,,,
+Test Cases/KSGM-74 TC - Order and check out a single product,Chrome 109.0.0.0,"Summary: TC - Order and check out a single product
+Description: ",jira-integration,2023-01-25 11:55:03,2023-01-25 11:56:19,1m - 16.022s,PASSED
+sample.Login.loginIntoApplicationWithGlobalVariable(),Chrome 109.0.0.0,,,2023-01-25 11:55:04,2023-01-25 11:55:22,17.893s,PASSED
+"waitForElementPresent(findTestObject(""Pages/Shop page/lnkShop""), waitPresentTimeout)",Chrome 109.0.0.0,,,2023-01-25 11:55:22,2023-01-25 11:55:22,0.395s,PASSED
+"click(findTestObject(""Pages/Shop page/lnkShop""))",Chrome 109.0.0.0,,,2023-01-25 11:55:22,2023-01-25 11:55:27,4.847s,PASSED
+sample.Shop.addToCartWithGlobalVariable(),Chrome 109.0.0.0,,,2023-01-25 11:55:27,2023-01-25 11:55:38,11.254s,PASSED
+"sample.Checkout.CheckoutShop(firstName, lastName, companyName, country, address, city, postCode, Phone)",Chrome 109.0.0.0,,,2023-01-25 11:55:38,2023-01-25 11:56:13,34.414s,PASSED
+sample.Login.logoutFromApplication(),Chrome 109.0.0.0,,,2023-01-25 11:56:13,2023-01-25 11:56:18,5.469s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-25 11:56:18,2023-01-25 11:56:19,0.647s,PASSED
+,,,,,,,
+Test Cases/KSGM-77 TC - Order and check out a single product using coupons,Chrome 109.0.0.0,"Summary: TC - Order and check out a single product using coupons
+Description: ",jira-integration,2023-01-25 11:56:19,2023-01-25 11:56:20,1.232s,FAILED
+sample.Login.loginIntoApplicationWithGlobalVariable(),Chrome 109.0.0.0,,,2023-01-25 11:56:19,2023-01-25 11:56:19,0.001s,NOT_RUN
+"waitForElementPresent(findTestObject(""Pages/Shop page/lnkShop""), waitPresentTimeout)",Chrome 109.0.0.0,,,2023-01-25 11:56:19,2023-01-25 11:56:20,1.052s,FAILED

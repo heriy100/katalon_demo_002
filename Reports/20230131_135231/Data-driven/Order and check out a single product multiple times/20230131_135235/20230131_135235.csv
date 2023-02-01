@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Order and check out a single product multiple times,,,,2023-01-31 13:53:11,2023-01-31 13:53:24,13.575s,FAILED
+,,,,,,,
+Test Cases/Custom-keyword samples/Order and check out a single product,,,,2023-01-31 13:53:13,2023-01-31 13:53:22,8.122s,FAILED
+sample.Login.loginIntoApplicationWithGlobalVariable(),,,,2023-01-31 13:53:16,2023-01-31 13:53:22,5.430s,FAILED
+,,,,,,,
+Test Cases/Custom-keyword samples/Order and check out a single product,,,,2023-01-31 13:53:22,2023-01-31 13:53:23,0.253s,FAILED
+sample.Login.loginIntoApplicationWithGlobalVariable(),,,,2023-01-31 13:53:22,2023-01-31 13:53:23,0.167s,FAILED
+,,,,,,,
+Test Cases/Custom-keyword samples/Order and check out a single product,,,,2023-01-31 13:53:23,2023-01-31 13:53:24,0.243s,FAILED
+sample.Login.loginIntoApplicationWithGlobalVariable(),,,,2023-01-31 13:53:23,2023-01-31 13:53:23,0.163s,FAILED
+,,,,,,,
+Test Cases/Custom-keyword samples/Order and check out a single product,,,,2023-01-31 13:53:24,2023-01-31 13:53:24,0.221s,FAILED
+sample.Login.loginIntoApplicationWithGlobalVariable(),,,,2023-01-31 13:53:24,2023-01-31 13:53:24,0.161s,FAILED

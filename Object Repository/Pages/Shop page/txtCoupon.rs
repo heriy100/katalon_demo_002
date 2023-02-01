@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txtCoupon</name>
+   <tag></tag>
+   <elementGuidId>d66a8dc5-976b-4e8b-9cfa-25e7869399d3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'coupon_Code' and @class = 'input-text']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>coupon_Code</value>
+      <webElementGuid>55027dbc-6987-463f-95ef-bed70b9829eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input-text</value>
+      <webElementGuid>f7e9b0bb-6e71-4a88-b7ef-f33911e30072</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Order and check out multiple products,,,,2023-01-31 13:54:12,2023-01-31 13:54:21,8.364s,FAILED
+,,,,,,,
+Test Cases/Data-driven samples/Order and check out multiple products,,,,2023-01-31 13:54:14,2023-01-31 13:54:21,7.046s,FAILED
+sample.Login.loginIntoApplicationWithGlobalVariable(),,,,2023-01-31 13:54:16,2023-01-31 13:54:21,4.436s,FAILED

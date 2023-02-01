@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Order and check out with Global Variable,,,,2023-02-01 02:51:05,2023-02-01 02:51:38,33.387s,FAILED
+,,,,,,,
+Test Cases/KSGM-74 TC - Order and check out a single product,,"Summary: TC - Order and check out a single product
+Description: ",jira-integration,2023-02-01 02:51:07,2023-02-01 02:51:29,22.468s,FAILED
+sample.Login.loginIntoApplicationWithGlobalVariable(),,,,2023-02-01 02:51:25,2023-02-01 02:51:29,4.519s,FAILED
+,,,,,,,
+Test Cases/KSGM-77 TC - Order and check out a single product using coupons,,"Summary: TC - Order and check out a single product using coupons
+Description: ",jira-integration,2023-02-01 02:51:30,2023-02-01 02:51:38,8.549s,FAILED
+sample.Login.loginIntoApplicationWithGlobalVariable(),,,,2023-02-01 02:51:36,2023-02-01 02:51:36,0.005s,NOT_RUN
+"waitForElementPresent(findTestObject(""Pages/Shop page/lnkShop""), waitPresentTimeout)",,,,2023-02-01 02:51:36,2023-02-01 02:51:38,1.626s,FAILED
